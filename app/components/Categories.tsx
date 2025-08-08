@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Categories() {
   return (
     <div className="py-24 sm:py-32">
-      <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl xl:max-w-[1370px] lg:px-8">
+      <div className="mx-auto max-w-2xl lg:max-w-7xl xl:max-w-[1370px]">
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
           <div className="flex p-px lg:col-span-4 ">
             <div className="relative overflow-hidden w-full rounded-lg ring-1 ring-white/15 max-lg:rounded-t-[1.5rem] lg:rounded-tl-[1.5rem] border-[1px] border-gray-300 bg-white">
